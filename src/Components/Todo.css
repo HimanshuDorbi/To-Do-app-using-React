@@ -1,0 +1,44 @@
+body {
+
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(7, 1, 40, 0.3), rgba(3, 0, 2, 0.9)), url("https://wallpaperaccess.com/full/3581527.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-row {
+    height: 100vh;
+}
+
+.main-col {
+    max-width: 550px;
+    min-height: 350px;
+}
+
+.todo-done {
+    text-decoration: line-through;
+}
+
+.col-6 button {
+    background-color: #049440;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+
+}
+
+.col-6 h6{
+    width: 800px;
+}
+
+button:hover {
+
+    background-color: red;
+}
